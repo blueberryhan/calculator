@@ -1,0 +1,23 @@
+.calculator-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.display {
+  text-align: right;
+  padding: 60px;
+  border: 1px solid black;
+  width: 37%;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 600px;
+  max-height: 600px;
+}
+
+button {
+  padding: 40px 60px;
+}
